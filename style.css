@@ -1,0 +1,127 @@
+head title{
+  padding: 20px;
+  margin: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 0, 0, 0.877);
+}
+ .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .card{
+   background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3 sec ease-out;
+ }
+ .card:hover {
+   transform: translateY(-6px);
+ }
+ .card p{
+   color: rgba(255, 255, 255, 0.61);
+   font-size: 16px; 
+ }
+ .card h2{
+   color: rgba(255, 255, 255, 0.808);
+ }
+ .salame {
+   border-left: 3px solid green;
+ }
+ .title h1 {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .title h2 {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .title{
+  color: white;
+ }
+.resto{
+  padding: 20px;
+  margin: 20px;
+  border-left: 400px;
+  color: white;
+  display:grid;
+  align-items:flex;
+  justify-content:start; 
+}
+.trigo{
+  border-left: 3px solid green;
+}
+.galeto{
+  border-left: 3px solid green;
+ }
+.bebida{
+  border-left: 3px solid green;
+}
+.livre{
+  border-left: 3px solid green;
+}
+.mapa{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 50px;
+}
+.map h2{  
+    padding: 20px;
+    margin: 20px;
+  color: white;
+}
+.map p{  
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+.subtitle{
+  color: white;
+}
+.subtitle h2{
+  padding: 20px;
+}
+.final{
+  padding: 20px;
+  margin: 20px;
+  border-left: 400px;
+  color: white;
+  display:grid;
+  align-items:flex;
+  justify-content:start;
+}
+.registro{
+  background-color: rgba(0, 128, 0, 0.623);
+  padding: 20px;
+  margin: 20px;
+  border-left: 400px;
+  color: white;
+  display:flex;
+  align-items:flex;
+  justify-content:center;
+}
+.registro p{
+  padding: 2px;
+  margin: 2px;
+  border-left: 400px;
+}
+.registro p1{
+  padding: 2px;
+  margin: 2px;
+  border-left: 400px;
+}
+.mapa img{
+  width: 550px;
+  height: 550px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+}
