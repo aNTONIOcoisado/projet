@@ -24,26 +24,36 @@ body{
  }
  .card p{
    color: rgba(255, 255, 255, 0.61);
-   font-size: 16px; 
+   font-size: 20px; 
  }
  .card h2{
+  font-size: 30px;
    color: rgba(255, 255, 255, 0.808);
  }
  .salame {
    border-left: 3px solid green;
  }
  .title h1 {
+  background-color: green;
+  font-size:500%;
    display:flex;
    align-items: center;
    justify-content: center;
  }
  .title h2 {
+  font-size: 300%;
    display:flex;
    align-items: center;
    justify-content: center;
  }
  .title{
   color: white;
+ }
+ .resto h2{
+  font-size: 35px;
+ }
+ .resto p{
+  font-size: 20px;
  }
 .resto{
   padding: 20px;
@@ -74,11 +84,13 @@ body{
   margin: 50px;
 }
 .map h2{  
+  font-size: 35px;
     padding: 20px;
     margin: 20px;
   color: white;
 }
 .map p{  
+  font-size: 20px;
     padding: 20px;
     margin: 20px;
     color: white;
@@ -87,7 +99,14 @@ body{
   color: white;
 }
 .subtitle h2{
+  font-size: 35px;
   padding: 20px;
+}
+.final p {
+  font-size: 20px;
+}
+.final h2{
+  font-size: 35px;
 }
 .final{
   padding: 20px;
@@ -124,4 +143,19 @@ body{
   display:grid;
   align-items: center;
   justify-content: center;
+}
+.apoio{
+  font-size: 27px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+.apoio img{
+  display:center;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
 }
