@@ -4,7 +4,7 @@ head title{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgba(0, 0, 0, 0.877);
+    background-color:rgba(255, 255, 255, 0.877);
 }
  .row{
     display: flex;
@@ -12,7 +12,7 @@ body{
     justify-content: center;
  }
  .card{
-   background-color: rgba(0, 0, 0, 0.384);
+   background-color: rgba(0, 0, 0, 0.425);
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
@@ -23,12 +23,12 @@ body{
    transform: translateY(-6px);
  }
  .card p{
-   color: rgba(255, 255, 255, 0.61);
+   color: rgba(0, 0, 0, 0.61);
    font-size: 20px; 
  }
  .card h2{
   font-size: 30px;
-   color: rgba(255, 255, 255, 0.808);
+   color: rgba(0, 0, 0, 0.808);
  }
  .salame {
    border-left: 3px solid green;
@@ -47,7 +47,7 @@ body{
    justify-content: center;
  }
  .title{
-  color: white;
+  color: rgb(0, 0, 0);
  }
  .resto h2{
   font-size: 35px;
@@ -59,7 +59,7 @@ body{
   padding: 20px;
   margin: 20px;
   border-left: 400px;
-  color: white;
+  color: rgb(0, 0, 0);
   display:grid;
   align-items:flex;
   justify-content:start; 
@@ -87,16 +87,16 @@ body{
   font-size: 35px;
     padding: 20px;
     margin: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .map p{  
   font-size: 20px;
     padding: 20px;
     margin: 20px;
-    color: white;
+    color: rgb(7, 7, 7);
 }
 .subtitle{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .subtitle h2{
   font-size: 35px;
@@ -112,7 +112,7 @@ body{
   padding: 20px;
   margin: 20px;
   border-left: 400px;
-  color: white;
+  color: rgb(0, 0, 0);
   display:grid;
   align-items:flex;
   justify-content:start;
@@ -122,12 +122,14 @@ body{
   padding: 20px;
   margin: 20px;
   border-left: 400px;
-  color: white;
+  color: rgb(0, 0, 0);
   display:flex;
   align-items:flex;
   justify-content:center;
 }
 .registro p{
+  justify-content: center;
+  align-items: center;
   padding: 2px;
   margin: 2px;
   border-left: 400px;
@@ -146,7 +148,7 @@ body{
 }
 .apoio{
   font-size: 27px;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 20px;
   margin: 20px;
 }
@@ -159,4 +161,8 @@ body{
   width: 200px;
   padding: 20px;
   margin: 20px;
+}
+.atezape img{
+  width: 50px;
+  height: 50px;
 }
