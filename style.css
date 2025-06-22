@@ -3,8 +3,10 @@ head title{
   margin: 20px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imgs/fundo.jpg) ;
+    background-color: rgb(233, 245, 219);
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
 }
  .row{
     display: flex;
@@ -12,15 +14,16 @@ body{
     justify-content: center;
  }
  .card{
-   background-color:rgb(0, 94, 0);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 50px;
-    width: 400px;
-    transition: all 0.3 sec ease-out;
+   background-color: rgb(163, 197, 133);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  transition: all 0.3s ease-out;
  }
  .card:hover {
-   transform: translateY(-6px);
+  background-color: rgb(181, 215, 166);
+  transform: translateY(-6px);
  }
  .card p{
    color: rgb(0, 0, 0);
@@ -31,14 +34,15 @@ body{
    color: rgba(0, 0, 0, 0.808);
  }
  .salame {
-   border-left: 6px solid rgb(0, 94, 0);
+   border-left: 6px solid rgb(62, 163, 4);
  }
  .title h1 {
-  background-color: green;
+  background-color: rgb(255, 186, 8);
   font-size:500%;
    display:flex;
    align-items: center;
    justify-content: center;
+   color: #000
  }
  .title h2 {
   font-size: 300%;
@@ -58,23 +62,22 @@ body{
 .resto{
   padding: 20px;
   margin: 20px;
-  border-left: 400px;
   color: rgb(0, 0, 0);
   display:grid;
   align-items:flex;
   justify-content:start; 
 }
 .trigo{
-  border-left: 6px solid rgb(0, 94, 0);
+  border-left: 6px solid rgb(62, 163, 4);
 }
 .galeto{
-  border-left: 6px solid rgb(0, 94, 0);
+  border-left: 6px solid rgb(62, 163, 4);
  }
 .bebida{
-  border-left: 6px solid rgb(0, 94, 0);
+  border-left: 6px solid  rgb(62, 163, 4);
 }
 .livre{
-  border-left: 6px solid rgb(0, 94, 0);
+  border-left: 6px solid rgb(62, 163, 4);
 }
 .mapa h2{
     padding: 10px;
@@ -88,9 +91,11 @@ body{
     margin: 20px;
     color: rgb(7, 7, 7);
 }
+.omapa img{
+  width: 95%;
+  height: 80%;
+}
 .omapa{
-  margin: 20px;
-  padding: 20px;
   display:grid;
   align-items:center;
   justify-content: center;
@@ -113,7 +118,6 @@ body{
 .final{
   padding: 20px;
   margin: 20px;
-  border-left: 400px;
   color: rgb(0, 0, 0);
   display:grid;
   align-items:flex;
@@ -141,11 +145,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: rgba(35, 168, 23, 0.192);
   padding: 20px;
   border-radius: 8px;
 }
-
 .atezape img {
   width: 25px;
   height: 25px;
@@ -159,23 +162,41 @@ body{
   justify-content: center;
   padding: 0;
 }
+.contato{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contato img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.subi {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  transition: opacity 0.3s ease;
+}
+.subi img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+.subi:hover {
+  opacity: 0.8;
+}
 
-@media (max-width: 768px) {
-  .conteudo {
-      width: 90%;
-  }
-
-  nav ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-
-  nav ul li {
-      margin: 5px 0;
-  }
-
-  .cta-button {
-      width: 100%;
-  }
+html {
+  scroll-behavior: smooth;
 }
